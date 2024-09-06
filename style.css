@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 1px solid white;
+    position: fixed;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+#home{
+    background-color: black;
+}
+.item:last-child>img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 3%;
+    background-color: black;
+}
+.item{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+.item>h2{
+    color: white;
+    font-size: medium;
+    font-size: 2rem;
+    margin-top: 70px;
+}
+.item>h1{
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.item>h3{
+    color: white;
+    margin-top: 10px;
+}
+.item>h4{
+     color: white;
+     margin-top: 10px;
+     
+}
+.item2:first-child>img{
+    width: 100%;
+    height: 100%;
+}
+#about{
+    background-color: black;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 3%;
+    background-color:black;
+}
+.item2{
+    width: 40%;
+    height: 400px;
+    background-color: black;
+    color:#ff8553
+}
+.item2>h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.item2>p{
+    color: white;
+    margin-top: 20px;
+  
+}
+.item2>button{
+    width: 200px;
+    border-radius: 50px;
+    height: 50px;
+    color: skyblue;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border: 0;
+    margin-top: 80px;
+    background-color: #ff8553;
+}
+#service{
+    color: white;
+    margin-top: 20px;
+    text-align: cent
+}
+.container3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 3%;
+    background-color: black;
+}
+.item3{
+    width: 35%;
+    height: 400px;
+    background-color: black;
+}
+.item3>h1,p{
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+}
+.item3>button{
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #ff8553;
+    color: skyblue;
+    margin: auto;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#skill{
+    background-color: black;
+}
+.container4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 3%;
+    background-color: black;
+}
+.item4{
+    height: 100%;
+    width: 100%;
+}
+.item4>img{
+    height: 100%;
+    width: 100%;
+}
+#portfolio{
+    background-color: black;
+}
+.container5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 3%;
+    background-color: black;
+}.item5{
+    height: 400px;
+    width: 35%;
+    background-color: black;
+}
+.item5>img{
+    height: 100%;
+    width: 100%;
+}
+#contact{
+    background-color: black;
+}
+.container6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 3%;
+}
+.item6{
+    height: fit-content;
+    width: 45%;
+    background-color: black;
+}
+.item6>form{
+     display: flex;
+     gap: 20px;
+    margin-top: 10px;
+    background-color: black;
+}
+form>input{
+    border-radius: 10px;
+    height: 50px;
+    width: 50%;
+    padding: 3%;
+    font-size: 1rem;
+    background-color: black;
+    border-bottom: 4px solid red;
+}
+.item6>textarea{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    background-color: black;
+    border-bottom: 4px solid red;
+}
+.item6>button{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50px;
+    border: 0;
+    background-color: #ff8553;
+}
